@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="CustomView">
+        <attr name="leftText" format="string"/>
+        <attr name="leftTextColor" format="color"/>
+        <attr name="leftTextSize" format="dimension"/>
+        <attr name="tipsText" format="string"/>
+        <attr name="tipsTextColor" format="color"/>
+        <attr name="tipsTextSize" format="dimension"/>
+        <attr name="leftIcon" format="reference"/>
+        <attr name="rightIcon" format="reference"/>
+        <attr name="isShowDownLine" format="boolean"/>
+        <attr name="isShowRedDot" format="boolean"/>
+    </declare-styleable>
+
+</resources>

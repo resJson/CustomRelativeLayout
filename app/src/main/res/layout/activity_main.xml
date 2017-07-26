@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:Ray = "http://schemas.android.com/apk/res-auto"
+    android:background="@color/color_hint"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.customrelativelayout.CustomRelativeLayout
+        android:id="@+id/mine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        Ray:leftText="个人中心"
+        Ray:leftTextColor="@color/color_primary"
+        Ray:leftTextSize="16sp"
+        Ray:leftIcon="@mipmap/setting"
+        Ray:rightIcon="@mipmap/arrow_icon"
+        Ray:isShowRedDot="false"
+        Ray:isShowDownLine="false"/>
+
+
+    <com.customrelativelayout.CustomRelativeLayout
+        android:layout_marginTop="8dp"
+        android:id="@+id/setting"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        Ray:leftText="设置"
+        Ray:leftTextColor="@color/color_primary"
+        Ray:leftTextSize="16sp"
+        Ray:tipsText="版本号1.0"
+        Ray:tipsTextColor="@color/color_hint"
+        Ray:tipsTextSize="14sp"
+        Ray:leftIcon="@mipmap/setting"
+        Ray:rightIcon="@mipmap/arrow_icon"
+        Ray:isShowRedDot="true"
+        Ray:isShowDownLine="false"/>
+
+</LinearLayout>
